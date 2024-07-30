@@ -12,8 +12,8 @@ El SmartHome Energy Challenge (SHEC) es un proyecto que busca optimizar el consu
   
   <h2>Características Principales:</h2>
   <ul>
-    <li><strong>Analisis de datos:</strong> Permite visualizar los datos energeticos de tu sequipos.</li>
-    <li><strong>Manejo de equipos electronicos:</strong> Te permite ordenar y configurar tus equipos electronicos yt su consumo.</li>
+    <li><strong>Analisis de datos:</strong> Permite visualizar los datos energeticos de tus equipos.</li>
+    <li><strong>Manejo de equipos electronicos:</strong> Te permite ordenar y configurar tus equipos electronicos y su consumo.</li>
     <li><strong>Manejo energetico:</strong> SHEC te permitira analizar tu consumo energetico en relacion con tus electrodomesticos.</li>
   </ul>
   
