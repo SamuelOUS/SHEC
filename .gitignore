@@ -1,0 +1,11 @@
+# Ignorar el directorio node_modules
+node_modules/
+
+# Ignorar el ejecutable de Electron y otros archivos generados
+node_modules/electron/dist/
+node_modules/electron/.gitignore
+node_modules/electron/electron.js
+
+# Ignorar archivos temporales y otros no necesarios
+*.log
+*.tmp
