@@ -9,7 +9,7 @@ function createWindow () {
     }
   });
 
-  win.loadFile('index.html');
+  win.loadURL('http://localhost:4200');
 }
 
 app.whenReady().then(createWindow);
