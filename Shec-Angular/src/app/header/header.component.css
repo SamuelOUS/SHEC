@@ -1,0 +1,43 @@
+.logo {
+    max-height: 50px; /* Ajusta el tamaño del logo */
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+  }
+
+  .search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+  }
+  .logo{
+    background-image: url("/image.png");
+    background-color: yellowgreen;
+    width: 100px;
+    height: 200px;
+  }
+
+  .search-bar input {
+    margin-bottom: 5px;
+    max-width: 100%; /* Asegura que los inputs se ajusten al contenedor */
+  }
+  
+  .menu-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-icon i {
+    font-size: 20px;
+  }
+  
