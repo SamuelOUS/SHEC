@@ -1,0 +1,23 @@
+<div class="signup-container">
+
+    <div class="left-panel">
+      <img src="/logo.png" alt="imagen">
+    </div>
+
+    <div class="right-panel">
+      <h2>Inicia sesion en SHEC</h2>
+      <h5>En caso de que no tengas una cuenta <br> registrada, considera crear una</h5>
+      <form>
+        
+        <input type="email" id="email" name="email" placeholder="email">
+        <input type="password" id="password" name="password" placeholder="contraseña">
+  
+        <a [routerLink]="['/home']"  class="continuar">continuar</a>
+
+        <div class="separator"></div>
+
+        <a [routerLink]="['/login']"  class="primary">volver</a>
+      </form>
+    </div>
+  </div>
+  

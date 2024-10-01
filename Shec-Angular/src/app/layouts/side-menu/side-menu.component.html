@@ -1,0 +1,42 @@
+<div class="layoutContainer">
+    <!-- Menú lateral -->
+    <div class="sideMenu">
+        <div class="accesible">
+            <img src="/home.png" alt="imagen" class="home" [routerLink]="'/home'">
+            <img src="/settings.png" alt="imagen" class="settings">
+        </div>
+
+        <div class="menuFeatures">
+            <div class="separatorTop"></div>
+            <div class="featuresBtns">
+                <div [routerLink]="'/profile'">
+                    <img src="/profile.png" alt="profileIcon">
+                    perfil
+                </div>
+
+                <div [routerLink]="'/devices'">
+                    <img src="/devices.png" alt="devicesIcon">
+                    dispositivos
+                </div>
+
+                <div [routerLink]="'/energy'">
+                    <img src="/energy.png" alt="energyIcon">
+                    energia
+                </div>
+
+                <div [routerLink]="'/stats'">
+                    <img src="/stats.png" alt="statsIcon">
+                    estadisticas
+                </div>
+            </div>
+            <div class="separatorBot"></div>
+        </div>
+
+        <img src="/ShecWater.png" alt="ShecWater" class="ShecWater">
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="mainContent">
+        <router-outlet></router-outlet>
+    </div>
+</div>

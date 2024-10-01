@@ -2,12 +2,14 @@ const { app, BrowserWindow } = require('electron');
 
 function createWindow () {
   const win = new BrowserWindow({
-    width: 1000,
-    height: 900,
+    autoHideMenuBat: true,
+    width: 1500,
+    height: 1200,
     webPreferences: {
       nodeIntegration: true
     }
   });
+
 
   win.loadURL('http://localhost:4200');
 }
