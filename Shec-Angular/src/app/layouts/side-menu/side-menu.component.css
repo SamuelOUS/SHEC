@@ -39,6 +39,8 @@
 
   .accesible img{
     cursor: pointer;
+    width: 3vh;
+    height: 3vh;
   }
 
   .accesible img:hover{
@@ -61,15 +63,15 @@
     }
   }
   
-  .home,
+  
   .settings {
     width: 30px;
     height: 30px;
   }
   
   .menuFeatures {
-    width: 20vh;
-    min-height: 30vh;
+    width: 25vh;
+    min-height: 45vh;
     margin-top: 10px;
     filter: drop-shadow(2px 2px 2px black);
     background-color: #272727;
@@ -81,19 +83,19 @@
   /* Ajuste para pantallas menores de 1500px */
   @media (max-width: 1500px) {
     .menuFeatures {
-      width: 18vh;
+      width: 25vh;
     }
   }
   
   /* Ajuste para pantallas menores de 1200px */
   @media (max-width: 1200px) {
     .menuFeatures {
-      width: 16vh;
+      width: 20vh;
     }
   }
   
   .separatorTop {
-    width: 20vh;
+    width: 25vh;
     height: 20px;
     background-color: #ACFFAF;
     border-top-left-radius: 20px;
@@ -104,19 +106,19 @@
   /* Ajuste para pantallas menores de 1500px */
   @media (max-width: 1500px) {
     .separatorTop {
-      width: 18vh;
+      width: 25vh;
     }
   }
   
   /* Ajuste para pantallas menores de 1200px */
   @media (max-width: 1200px) {
     .separatorTop {
-      width: 16vh;
+      width: 25vh;
     }
   }
   
   .featuresBtns {
-    width: 20vh;
+    width: 25 vh;
     height: 20vh;
     background-color: #272727;
     transition: width 0.3s ease, height 0.3s ease;
@@ -125,15 +127,15 @@
   /* Ajuste para pantallas menores de 1500px */
   @media (max-width: 1500px) {
     .featuresBtns {
-      width: 18vh;
-      height: 18vh;
+      width: 25vh;
+      height: 25vh;
     }
   }
   
   /* Ajuste para pantallas menores de 1200px */
   @media (max-width: 1200px) {
     .featuresBtns {
-      width: 16vh;
+      width: 25vh;
       height: 16vh;
     }
   }
@@ -148,7 +150,7 @@
   }
   
   .separatorBot {
-    width: 20vh;
+    width: 25vh;
     height: 20px;
     background-color: #ACFFAF;
     border-bottom-left-radius: 20px;
@@ -161,14 +163,14 @@
   /* Ajuste para pantallas menores de 1500px */
   @media (max-width: 1500px) {
     .separatorBot {
-      width: 18vh;
+      width: 25vh;
     }
   }
   
   /* Ajuste para pantallas menores de 1200px */
   @media (max-width: 1200px) {
     .separatorBot {
-      width: 16vh;
+      width: 20vh;
     }
   }
   

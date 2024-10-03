@@ -9,6 +9,9 @@ import { StatsComponent } from './features/stats/stats.component';
 import { ProfileComponent } from './features/profile/profile.component';
 
 export const routes: Routes = [
+  // Redirigir la ruta raíz ('/') al login
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+
   // Rutas sin el layout de menú lateral
   { path: 'login', component: LoginComponent },
   { path: 'sign-up', component: SignUpComponent },
@@ -20,10 +23,9 @@ export const routes: Routes = [
     children: [
       { path: 'home', component: LandingPageComponent },
       { path: 'profile', component: ProfileComponent },
-      { path: 'stats', component: StatsComponent},
+      { path: 'stats', component: StatsComponent },
       { path: 'devices', component: DevicesComponent },
       { path: 'energy', component: EnergyComponent }
-      
     ]
   },
 

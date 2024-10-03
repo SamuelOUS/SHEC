@@ -1,0 +1,9 @@
+.landingContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.landingImage{
+  width: 130vh;
+  height: 95vh;
+}
