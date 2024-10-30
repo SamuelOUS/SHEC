@@ -2,10 +2,16 @@
 html{
     width: 100%;
     height: 100%;
+    scrollbar-width: none; /*Firefox, Opera, Chrome y Edge*/
+    overflow: hidden;
 }
 body {
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     margin: 0;
     height: 100vh;
     height: 100%;
+    scrollbar-width: none; /*Firefox, Opera, Chrome y Edge*/
   }
+
+
+  

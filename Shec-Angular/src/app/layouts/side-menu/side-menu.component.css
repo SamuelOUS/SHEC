@@ -3,7 +3,7 @@
     align-items: center;
     background-color: #1D1D1D;
     width: 15%;
-    min-height: 100vh;
+    min-height: 110vh;
     flex-direction: column;
     transition: width 0.3s ease;
   }
@@ -97,7 +97,7 @@
   .separatorTop {
     width: 25vh;
     height: 20px;
-    background-color: #ACFFAF;
+    background-color: #7FC268;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     transition: width 0.3s ease;

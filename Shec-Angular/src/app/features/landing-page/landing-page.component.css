@@ -1,9 +1,16 @@
 .landingContainer{
+  overflow:hidden;
   display: flex;
   justify-content: center;
+  background-repeat: no-repeat;
+  scrollbar-width: none; /*Firefox, Opera, Chrome y Edge*/
 }
 
 .landingImage{
-  width: 130vh;
-  height: 95vh;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  padding-top: 100px;
+  width: 80vh;
+  height: 60vh;
 }
+

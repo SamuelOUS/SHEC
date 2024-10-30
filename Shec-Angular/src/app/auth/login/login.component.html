@@ -1,26 +1,17 @@
 <div class="signup-container">
-
-    <div class="left-panel">
-      <img src="/logo.png" alt="imagen">
-    </div>
-
-    <div class="right-panel">
-      <h2>Registrate</h2>
-      <h5>Intenta que todos tus datos sean seguros y no los compartas con nadie</h5>
-      <form>
-        
-          <input type="email" id="email" name="email" placeholder="nombre">
-          <input type="email" id="email" name="email" placeholder="email">
-          <input type="email" id="email" name="email" placeholder="estrato">
-          <input type="password" id="password" name="password" placeholder="contraseña">
-          <input type="password" id="password" name="password" placeholder="confirmar contraseña">
-  
-        <a [routerLink]="['/sign-up']"  class="continuar">continuar</a>
-
-        <div class="separator"></div>
-        <label> ¿Ya tienes cuenta?</label>
-        <a [routerLink]="['/sign-up']"  class="primary">Inicia sesion</a>
-      </form>
-    </div>
+  <div class="left-panel">
+    <img src="/logo.png" alt="imagen">
   </div>
-  
+  <div class="right-panel">
+    <h2>Inicia sesión</h2>
+    <h5>En caso de no tener una cuenta, regístrate</h5>
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+      <input type="email" id="email" formControlName="email" placeholder="email">
+      <input type="password" id="password" formControlName="password" placeholder="contraseña">
+      <button type="submit" class="continuar">Continuar</button>
+      <div class="separator"></div>
+      <label>¿No tienes una cuenta?</label>
+      <a [routerLink]="['/sign-up']" class="primary">Regístrate</a>
+    </form>
+  </div>
+</div>

@@ -1,23 +1,24 @@
 <div class="signup-container">
 
-    <div class="left-panel">
-      <img src="/logo.png" alt="imagen">
-    </div>
-
-    <div class="right-panel">
-      <h2>Inicia sesion en SHEC</h2>
-      <h5>En caso de que no tengas una cuenta <br> registrada, considera crear una</h5>
-      <form>
-        
-        <input type="email" id="email" name="email" placeholder="email">
-        <input type="password" id="password" name="password" placeholder="contraseña">
-  
-        <a [routerLink]="['/home']"  class="continuar">continuar</a>
-
-        <div class="separator"></div>
-
-        <a [routerLink]="['/login']"  class="primary">volver</a>
-      </form>
-    </div>
+  <div class="left-panel">
+    <img src="/logo.png" alt="imagen">
   </div>
-  
+
+  <div class="right-panel">
+    <h2>Registrate</h2>
+    <h5>Recuerda que todos tus datos son privados <br>No compartas nada con nadie</h5>
+    <form [formGroup]="signUpForm" (ngSubmit)="onRegister()">
+      
+      <input type="text" id="name" formControlName="name" placeholder="nombre"> 
+      <input type="email" id="email" formControlName="email" placeholder="email">
+      <input type="password" id="password" formControlName="password" placeholder="contraseña">
+      <input type="password" id="rePassword" formControlName="rePassword" placeholder="confirmar contraseña"> 
+
+      <button type="submit" class="continuar">continuar</button> 
+
+      <div class="separator"></div>
+
+      <a [routerLink]="['/login']" class="primary">volver</a>
+    </form>
+  </div>
+</div>
